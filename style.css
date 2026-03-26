@@ -1,0 +1,201 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body {
+  background: #bfa3b6;
+}
+
+.page {
+  position: relative;
+  width: 1440px;
+  margin: auto;
+  background: #bfa3b6;
+}
+
+/* ── Header ── */
+.header-overlay {
+  position: absolute;
+  top: 2px; left: 67px;
+  width: 1728px; height: 321px;
+  background-color: #e75353;
+  mix-blend-mode: overlay;
+  opacity: 0.62;
+}
+
+.header-bg {
+  position: absolute;
+  inset: 0;
+  background-color: #d9d9d9;
+}
+.header-union {
+  position: absolute;
+  width: 1px; height: 1px;
+  top: -52px; left: -67px;
+  object-fit: cover;
+}
+.header-svg {
+    position: absolute;
+    width: 3.01%;
+    height: 4.83%;
+    top: 23.19%;
+    left: 90.28%;
+}
+
+/* ── Side decorations ── */
+
+.button-dialog {
+    width: 74;
+    height: 64;
+    top: 255px;
+    left: 1466px;
+    border-radius: 20px;
+    border-width: 1px;
+    padding: 0.6px;
+
+    opacity: 1;
+}
+
+
+.side-btn-dialog {
+  position: absolute;
+  width: 15.28%; height: 77.26%;
+  top: 22.74%; left: 84.72%;
+}
+.side-btn {
+  position: absolute;
+  width: 5.61%; height: 77.08%;
+  top: 22.92%; left: 94.39%;
+}
+
+.side-svg1 {
+  position: absolute;
+  top: 170px;
+  right: 60px;
+  width: 40px;
+}
+.button {
+width: 76;
+height: 56;
+top: 257px;
+left: 1636px;
+border-radius: 33554400px;
+
+opacity: 1;
+
+}
+
+/* ── Hero image ── */
+.hero-img {
+  position: absolute;
+  top: 0; left: 0;
+  width: 423px; height: 321px;
+  object-fit: cover;
+}
+
+/* ── Store title ── */
+.store-title {
+  position: absolute;
+  top: 53px; left: 280px;
+  width: 1023px;
+  color: #b25a5a;
+  text-align: center;
+  line-height: normal;
+}
+.title-sub {
+  font-size: 40px;
+  font-weight: 500;
+  font-style: italic;
+}
+.title-main {
+  font-size: 64px;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* ── Tagline ── */
+.tagline {
+  position: absolute;
+  top: 250px; left: 754px;
+  width: 728px;
+  font-weight: 200;
+  font-style: italic;
+  color: #b25a5a;
+  font-size: 36px;
+  text-align: center;
+}
+
+/* ── Navigation ── */
+.nav-menu {
+  position: absolute;
+  top: 325px; left: 535px;
+  width: 921px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #f5f5f5;
+}
+
+/* ── Search bar ── */
+.search-bar {
+  position: absolute;
+  top: 325px; left: 13px;
+  width: 525px; height: 48px;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #d0d5db;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+  display: flex;
+  align-items: center;
+  padding-left: 12px;
+  gap: 8px;
+}
+.search-icon { width: 40px; height: 40px; }
+.search-placeholder {
+  font-family: 'Geist', Helvetica, sans-serif;
+  font-size: 24px;
+  color: #5f626f;
+}
+
+/* ── Brand logos ── */
+.brand {
+  position: absolute;
+  mix-blend-mode: color-burn;
+  object-fit: cover;
+}
+.logo1 { top: 407px; left: 25px;   width: 215px; height: 129px; }
+.logo2 { top: 417px; left: 311px;  width: 224px; height: 117px; }
+.logo3 { top: 421px; left: 627px;  width: 211px; height: 113px; }
+.logo4 { top: 413px; left: 954px;  width: 178px; height: 117px; }
+.logo5 { top: 418px; left: 1263px; width: 161px; height: 107px; }
+.logo6 { top: 407px; left: 1540px; width: 159px; height: 127px; }
+
+/* ── Section title ── */
+.section-title {
+  position: absolute;
+  top: 584px; left: 13px;
+  font-size: 32px;
+  font-weight: 600;
+  color: #f11212;
+}
+
+/* ── Products ── */
+.product {
+  position: absolute;
+  top: 669px;
+}
+.product img {
+  width: 270px;
+  height: 240px;
+  object-fit: cover;
+  display: block;
+}
+.product-name {
+  margin-top: 8px;
+  font-size: 24px;
+  font-weight: 600;
+  color: #342727;
+  line-height: 1.4;
+}
+.product-price { color: #ea0f0f; }
+
+.p1 { left: 53px;   }
+.p2 { left: 474px;  }
+.p3 { left: 922px;  }
+.p4 { left: 1343px; }
